@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+    font-size: 2vh;
+}
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(13, 13, 13);
+    padding: 2vh;
+    text-align: center;
+}
+#oh {
+    text-align: center;
+}
+body {
+    color: white;
+    background-color: rgb(16, 16, 16);
+}
+#pdp, #org {
+    border-radius: 10%;
+    object-fit: cover;
+    width: 5vh;
+    height: 5vh;
+    transition: 0.2s;
+}
+#org {
+    width: 4vh;
+    height: 4vh;
+}
+#pdp:hover {
+    transform: scale(1.1);
+}
+#W {
+    color: rgb(134, 228, 134);
+}
+#L {
+    color: rgb(255, 94, 94);
+}
+#D {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.display-game {
+    cursor: default;
+    font-weight: bold;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.view a {
+    color: rgb(162, 162, 255);
+    display: flex;
+    transition: 0.2s;
+    gap: 0.5vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.view:hover a:hover{
+    opacity: 0.8;
+}
