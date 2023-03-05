@@ -11,30 +11,24 @@
     padding: 0;
 }
 header {
+    color: white;
     background-color: rgb(13, 13, 13);
     padding: 2vh;
     text-align: center;
 }
-#oh {
-    text-align: center;
+a {
+    color: inherit;
 }
 body {
     color: white;
     background-color: rgb(16, 16, 16);
 }
-#pdp, #org {
+#pdp {
     border-radius: 10%;
     object-fit: cover;
     width: 5vh;
     height: 5vh;
     transition: 0.2s;
-}
-#org {
-    width: 4vh;
-    height: 4vh;
-}
-#pdp:hover {
-    transform: scale(1.1);
 }
 #W {
     color: rgb(134, 228, 134);
@@ -45,46 +39,50 @@ body {
 #D {
     color: gray;
 }
-
-.container {
+.head-score {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.display-game {
-    cursor: default;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-}
-.view a {
-    color: rgb(162, 162, 255);
-    display: flex;
-    transition: 0.2s;
-    gap: 0.5vh;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    gap: 5vh;
 }
-.view:hover a:hover{
-    opacity: 0.8;
-}
-.card-game-list {
-    margin-top: 5vh;
-    background-color: rgb(22, 22, 22);
-    padding: 1vh;
+.game-card {
+    cursor: default;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
     border-radius: 10px;
+    width: 40vh;
+    padding: 1vh;
+    margin: 1vh;
+    transition: 0.2s;
+}
+.game-card:hover {
+    /*background-color: rgb(27, 27, 27);*/
+    border: 1px solid rgb(53, 53, 53);
+}
+.container-game {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#view {
+    color: rgb(162, 162, 255);
+    transition: 0.2s;
+}
+
+#view:hover{
+    opacity: 0.8;
 }
 #gameID {
     color: gray;
