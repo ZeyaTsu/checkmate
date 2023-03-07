@@ -1,0 +1,33 @@
+.box-event {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1vh;
+}
+#date {
+    font-size: 12px;
+    opacity: 0.5;
+}
+#description {
+    font-size: 13px;
+}
+p {
+    margin-bottom: 10px;
+}
+.events-list {
+    padding: 1vh;
+    border: 1px solid white;
+    margin-top: 5vh;
+}

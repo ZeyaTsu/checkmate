@@ -15,8 +15,29 @@ header {
     padding: 2vh;
     text-align: center;
 }
-#oh {
-    text-align: center;
+#head-logo {
+    width: 5vh;
+}
+.container-head {
+    padding: 0.5vh 5vh 0.5vh 5vh;
+}
+.list-head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-head > a {
+    transition: 0.2s;
+}
+.list-head > a:hover {
+    margin-top: -5px;
+}
+a {
+    color: inherit;
 }
 body {
     color: white;
