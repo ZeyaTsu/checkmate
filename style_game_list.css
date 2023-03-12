@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 10px;
-    width: 40vh;
+    width: 60vh;
     padding: 1vh;
     margin: 1vh;
     transition: 0.2s;
@@ -70,7 +70,7 @@ body {
 .container-game {
     margin-top: 5vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
